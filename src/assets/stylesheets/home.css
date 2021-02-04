@@ -1,0 +1,112 @@
+.home-page {
+  position: relative;
+}
+
+.dropp-logo img {
+  width: 175px;
+}
+
+.content-section {
+  color: #333333;
+  margin: 30% auto;
+  width: 350px;
+}
+
+.content-section h1.ui.header {
+  font-weight: 700;
+  font-size: 3.5rem;
+  margin-bottom: 30px;
+}
+
+.content-section .sub-heading {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 25px;
+  opacity: 0.8;
+  padding-top: 15px;
+}
+
+.merchant-section {
+  height: 100%;
+  margin-bottom: -14px;
+  margin-top: -14px;
+  position: relative;
+}
+
+.merchant-section .detail-box {
+  background-color: #5995CC;
+  bottom: 12%;
+  color: #ffffff;
+  min-height: 100px;
+  opacity: .9;
+  padding: 15px 15px 15px 35px;
+  position: absolute;
+  right: 0;
+  width: 75%;
+}
+
+@media (max-width: 767px) {
+  .merchant-section .detail-box {
+    width: 90%;
+  }
+}
+
+.merchant-section .detail-box.blue {
+  background-color: #5995CC;
+}
+
+.merchant-section .detail-box.yellow {
+  background-color: #F4B902;
+}
+
+.merchant-section .detail-box.green {
+  background-color: #4F7C33;
+}
+
+.merchant-section .detail-wrapper {
+  margin-top: 5%;
+}
+
+.merchant-section .detail-box .desc,
+.merchant-section .detail-box .amount,
+.merchant-section .detail-box .name {
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 25px;
+  padding: 10px 5px 15px 10px;
+  width: 61%;
+}
+
+.merchant-section .detail-box .name {
+  font-size: 2rem;
+  font-weight: 700;
+  width: 100%;
+}
+
+@media (max-width: 767px) {
+  .merchant-section .detail-box .desc,
+  .merchant-section .detail-box .amount,
+  .merchant-section .detail-box .name {
+    width: 100%;
+  }
+}
+
+.ui.grid>.row.controls-section {
+  bottom: 2%;
+  font-size: 4rem;
+}
+
+@media (min-width: 992px) {
+  .ui.grid>.row.controls-section {
+    position: absolute;
+  }
+}
+
+.controls-section i.icon,
+.controls-section i.icons {
+  display: inline;
+  margin-right: 10px;
+}
+
+
+
